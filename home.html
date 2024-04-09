@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    
+</head>
+<style>
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+nav ul{
+    position: sticky;
+}
+
+.container {
+    width: 80%;
+    margin:  0 auto;
+    padding: 10px 0;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    height: 100px;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: orange;
+    
+}
+
+#hero {
+    background-image: url(image/pexels-lenin-estrada-2569997.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    height: 70vh;
+    width: 100%;
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff7f50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #292727;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+}
+
+</style>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/About.html">About</a></li>
+                    <li><a href="/problem_statment.html" class="page_link">Problem Statement</a></li>
+                    <li><a href="/Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Your Ultimate Destination</h2>
+            <p>Discover amazing experiences around the world</p>
+            <a href="#" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; MY Website 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radley:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    left: -25vw;
+    width: 25vw;
+    height: 100%;
+    background-color: #042331;
+    transition: all .5s ease;
+}
+
+.navbar h1{
+    font-size: 22px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    background-color: #063146;
+    user-select: none;
+}
+
+.navbar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 60px;
+    font-size: 20px;
+    padding-left: 50px;
+   color: white;
+   box-sizing: border-box;
+   /* border-top: 1px solid rgba(255, 255, 255, 1); */
+   border-bottom: 1px solid black;
+   transition: .5s;
+}
+
+.navbar li:hover a {
+    padding-left: 60px;
+   
+
+}
+
+
+#check{
+    display: none;
+}
+
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background-color: #042331;
+    border-radius: 5px;
+}
+
+label #btn{
+    left: 40px;
+    top: 25px;
+    font-size: 25px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+
+label #cancel{
+    z-index: 1111;
+    left: -260px;
+    top: 20px;
+    font-size: 20px;
+    color: #0a5275;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+
+#check:checked ~.navbar{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+#check:checked ~ label #cancel{
+    left: 260px;
+   
+}
+
+#check:checked ~ section{
+    margin-left: 250px;
+}
+
+section{
+    background-image: url(image/pexels-lee-campbell-115655.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    transition: all .5s ease;
+}
+
+
+             /*    Problem Statement   */
+
+
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+         
+        }
+        header {
+            background-color: #93f0a3;
+            color: #FF5714;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .container h3 {
+            line-height: 2.6;
+        }
+
+        .container h2 {
+            line-height: 2.6;
+        }
+        .container p {
+            line-height: 1.6;
+        }
+    
+
+
+        /* CONTACT IFORMATION */
+
+
+
+ body {
+       margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+ }
+
+ .contactBox h1{
+    margin: 30px 0px;
+ }
+
+.cantact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+    border: 1px solid rgb(235, 233, 233);
+    width: 40%;
+    height: 80%;
+    margin: 15vh 30vw;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+   
+
+
+}
+
+#contant_icon1{
+    margin-left: 80px;
+    font-size: 20px;
+    color: green;
+}
+
+#contant_icon2{
+    margin-left: 80px;
+    font-size: 30px;
+    color: rgb(234, 195, 4);
+   
+}
+
+#contant_icon3{
+    margin-left: 80px;
+    font-size: 30px;
+    color: rgb(13, 124, 250);
+}
+
+
+
+.contact_address{
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.par1{
+    font-weight: bold;
+    margin-bottom: 15px;
+   
+}
+
+.pra2{
+    margin-bottom: 15px;
+}
+span{
+    margin-left: 70px;
+}
+
+.mobile_number, .Email_id {
+    padding: 10px 0px;
+}
+
+
+      /*    ABOUT    */
+
+.about{
+    width: 35vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0px 30vw;
+   background-color:#fff;
+   border-radius: 20px;
+
+
+
+}
+
+.pargrph{
+    line-height: 35px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.about_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5vh;
+    margin-bottom: 3vh;
+    margin-right: 10vw;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about_pra{
+    background-color: hsl(277, 89%, 89%);
+    color: black;
+    border: 2px solid white;
+     border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;
+     border-top-left-radius: 5px;
+   font-size: 19px;
+     
+}
+
+
